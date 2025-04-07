@@ -5,7 +5,7 @@ import SwiftUI
 @main
 struct TodoListApp: App {
     // Létrehozunk egy GlobalSettings példányt az alkalmazás szintjén
-    @StateObject private var settings = GlobalSettings()
+    @StateObject private var settings    = GlobalSettings()  
     
     var body: some Scene {
         WindowGroup {
