@@ -1,7 +1,7 @@
 // SwiftUI importálása
 import SwiftUI
 
-// Az alkalmazás belépési pontja
+// Az alkalmazás belépési pontja tetetete
 @main
 struct TodoListApp: App {
     // Létrehozunk egy GlobalSettings példányt az alkalmazás szintjén
