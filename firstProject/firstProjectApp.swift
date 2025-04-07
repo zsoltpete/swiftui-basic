@@ -11,7 +11,7 @@ struct TodoListApp: App {
         WindowGroup {
             // A MainTabView használata a ContentView helyett
             MainTabView()
-                // Az EnvironmentObject hozzáadása a környezethezzz
+                // Az EnvironmentObject hozzáadása a környezethez
                 .environmentObject(settings)
         }
     }
